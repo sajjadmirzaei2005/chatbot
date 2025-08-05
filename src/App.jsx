@@ -8,7 +8,7 @@ import TypingIndicator from "./components/TypingIndicator"
 export default function App() {
 
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "سلام من ربات هوش مصنوعی هستم، چطور میتونم کمکتون کنم؟" }
+    { sender: "bot", text: "سلام من ربات هوش مصنوعی هستم" }
   ])
 
   const messagesEndRef = useRef(null);
